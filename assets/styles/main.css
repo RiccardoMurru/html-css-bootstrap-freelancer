@@ -16,6 +16,14 @@ body {
   margin-bottom: 50px;
 }
 
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
 .pb-50 {
   padding-bottom: 50px;
 }
@@ -123,7 +131,6 @@ header {
 }
 
 /* Form */
-
 #contact-me label {
   font-weight: 500;
   font-size: 20px;
@@ -145,7 +152,27 @@ header {
   box-shadow: none;
 }
 
-#contact-me button {
+#contact-me .btn{
   background: #19bc9c;
   border: none;
+}
+
+/* Footer */
+#main-footer {
+  background: #2b3e50;
+}
+
+#main-footer .container-fluid {
+  background: #3a546d;
+}
+
+#main-footer .btn {
+  background: #3a546d;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+#main-footer span {
+  color: #19bc9c;
 }
