@@ -8,6 +8,18 @@ body {
   margin-bottom: 15px;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
 .color-white {
   color: #fff;
 }
@@ -17,7 +29,7 @@ body {
   font-size: 30px;
 }
 
-.star-icon::before {
+.star-icon-white::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -26,7 +38,8 @@ body {
   height: 2px;
   background: #fff;
 }
-.star-icon::after {
+
+.star-icon-white::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -34,6 +47,24 @@ body {
   width: 15%;
   height: 2px;
   background: #fff;
+}
+.star-icon-black::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 55%;
+  width: 15%;
+  height: 2px;
+  background: #333;
+}
+.star-icon-black::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  width: 15%;
+  height: 2px;
+  background: #333;
 }
 
 /* Header */
@@ -73,4 +104,20 @@ header {
 .jumbotron li:nth-child(even)::after {
   content: '-';
   padding-left: 10px;
+}
+
+/* Portfolio */
+
+/* About */
+#about {
+  background: #19bc9c;
+}
+
+#about .btn {
+  background: #19bc9c;
+  border-color: #fff;
+}
+
+#about .btn a {
+  text-decoration: none;
 }
