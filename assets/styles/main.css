@@ -1,0 +1,76 @@
+/* General */
+body {
+  padding-top: 50px;
+}
+
+/* Utilities */
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.star-icon {
+  position: relative;
+  font-size: 30px;
+}
+
+.star-icon::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 55%;
+  width: 15%;
+  height: 2px;
+  background: #fff;
+}
+.star-icon::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  width: 15%;
+  height: 2px;
+  background: #fff;
+}
+
+/* Header */
+header {
+  background: #19bc9c;
+}
+
+.navbar-default {
+  background: #2b3e50;
+  border: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background: #19bc9c;
+  color: #fff;
+}
+
+.jumbotron img {
+  width:150px;
+}
+
+.jumbotron li {
+  font-size: 20px;
+}
+
+.jumbotron li:nth-child(even)::before {
+  content: '-';
+  padding-right: 10px;
+}
+
+.jumbotron li:nth-child(even)::after {
+  content: '-';
+  padding-left: 10px;
+}
