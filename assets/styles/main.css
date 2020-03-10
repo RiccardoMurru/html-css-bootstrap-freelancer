@@ -80,6 +80,8 @@ body {
   background: #19bc9c;
 }
 
+/* Navbar */
+
 .navbar-default {
   background: #2b3e50;
   border: none;
@@ -95,6 +97,20 @@ body {
 #main-header .navbar-default .navbar-brand:focus,
 #main-header .navbar-default .navbar-nav > li > a:focus {
   color: #efc84a;
+}
+
+#main-header .navbar-default .navbar-toggle {
+  background: #19bc9c;
+  border-color: #19bc9c;
+}
+
+#main-header .navbar-default .navbar-toggle .icon-bar {
+  background-color: #2c3e50;
+}
+
+#main-header .navbar-default .navbar-collapse {
+  border-color: #19bc9c;
+  box-shadow: none;
 }
 
 /* Jumbotron */
@@ -167,6 +183,10 @@ body {
 
 #about .btn a {
   text-decoration: none;
+}
+
+#about .btn .fa-download {
+  padding-right: 10px;
 }
 
 /* Form */
